@@ -26,10 +26,16 @@ plugins: [
   },
   resolve: {
     root: __dirname,
+    modulesDirectories: [
+      'node_modules',
+      'C:/Users/Bogdan/Desktop/ReactTodo/app/components'
+
+    ],
     alias: {
 
 
-      applicationStyles:'C:/Users/Bogdan/Desktop/ReactBoilerplate3/app/styles/app.scss'
+      applicationStyles:'C:/Users/Bogdan/Desktop/ReactTodo/app/styles/app.scss',
+      TodoApp:"C:/Users/Bogdan/Desktop/ReactTodo/app/components/TodoApp.jsx"
 
     },
     extensions: ['', '.js', '.jsx']
@@ -48,7 +54,7 @@ plugins: [
   },
   sassLoader: {
     includePaths: [
-      path.resolve(__dirname, 'C:/Users/Bogdan/Desktop/ReactTimer/node_modules/foundation-sites/scss')
+      path.resolve(__dirname, 'C:/Users/Bogdan/Desktop/ReactTodo/node_modules/foundation-sites/scss')
     ]
   },
   devtool: 'cheap-module-eval-source-map'
