@@ -39,7 +39,8 @@ plugins: [
       TodoList:"C:/Users/Bogdan/Desktop/ReactTodo/app/components/TodoList.jsx",
       Todo:"C:/Users/Bogdan/Desktop/ReactTodo/app/components/Todo.jsx",
       AddTodo:"C:/Users/Bogdan/Desktop/ReactTodo/app/components/AddTodo.jsx",
-      TodoSearch:"C:/Users/Bogdan/Desktop/ReactTodo/app/components/TodoSearch.jsx"
+      TodoSearch:"C:/Users/Bogdan/Desktop/ReactTodo/app/components/TodoSearch.jsx",
+      TodoAPI:"C:/Users/Bogdan/Desktop/ReactTodo/app/api/TodoAPI.jsx"
 
     },
     extensions: ['', '.js', '.jsx']
