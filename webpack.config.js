@@ -35,7 +35,9 @@ plugins: [
 
 
       applicationStyles:'C:/Users/Bogdan/Desktop/ReactTodo/app/styles/app.scss',
-      TodoApp:"C:/Users/Bogdan/Desktop/ReactTodo/app/components/TodoApp.jsx"
+      TodoApp:"C:/Users/Bogdan/Desktop/ReactTodo/app/components/TodoApp.jsx",
+      TodoList:"C:/Users/Bogdan/Desktop/ReactTodo/app/components/TodoList.jsx",
+      Todo:"C:/Users/Bogdan/Desktop/ReactTodo/app/components/Todo.jsx"
 
     },
     extensions: ['', '.js', '.jsx']
