@@ -42,7 +42,8 @@ plugins: [
       TodoSearch:"C:/Users/Bogdan/Desktop/ReactTodo/app/components/TodoSearch.jsx",
       TodoAPI:"C:/Users/Bogdan/Desktop/ReactTodo/app/api/TodoAPI.jsx",
       actions: 'C:/Users/Bogdan/Desktop/ReactTodo/app/actions/actions.jsx',
-      reducers:'C:/Users/Bogdan/Desktop/ReactTodo/app/reducers/reducers.jsx'
+      reducers:'C:/Users/Bogdan/Desktop/ReactTodo/app/reducers/reducers.jsx',
+      configureStore:'C:/Users/Bogdan/Desktop/ReactTodo/app/store/configureStore.jsx'
 
     },
     extensions: ['', '.js', '.jsx']
