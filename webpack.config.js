@@ -1,7 +1,7 @@
 var webpack = require('webpack');
 var path = require('path');
 
-process.env.NODE_ENV  = process.env.NODE_ENV || 'development';
+
 
 module.exports = {
   entry: [
@@ -73,5 +73,5 @@ plugins: [
       path.resolve(__dirname, 'C:/Users/Bogdan/Desktop/ReactTodo/node_modules/foundation-sites/scss')
     ]
   },
-  devtool: process.env.NODE_ENV === 'production' ? undefined : 'cheap-module-eval-source-map'
+  devtool: 'cheap-module-eval-source-map'
 };
